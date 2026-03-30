@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turkish Mandi | Roll • Nihari • Kebab</title>
+    <meta
+      name="description"
+      content="Turkish Mandi serves signature rolls, slow-cooked nihari, and flame-grilled kebabs."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Turkish Mandi Home">Turkish Mandi</a>
+        <nav>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="chip">Authentic Turkish Flavors</p>
+          <h1>Turkish Mandi</h1>
+          <p class="tagline">ROLL • NIHARI • KEBAB</p>
+          <p>
+            A street-style experience inspired by your storefront sign — rich spices, smoky grills,
+            and comforting slow-cooked classics.
+          </p>
+          <a class="cta" href="#contact">Order Now</a>
+        </div>
+      </section>
+
+      <section id="menu" class="section">
+        <div class="container">
+          <h2>Signature Menu</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Loaded Rolls</h3>
+              <p>Chicken, paneer, and seekh rolls wrapped in soft roomali bread.</p>
+              <span>From $5.99</span>
+            </article>
+            <article class="card">
+              <h3>Royal Nihari</h3>
+              <p>8-hour slow-cooked nihari with house masala and fresh herbs.</p>
+              <span>From $10.99</span>
+            </article>
+            <article class="card">
+              <h3>Charcoal Kebabs</h3>
+              <p>Juicy adana, malai tikka, and beef seekh kebabs grilled to perfection.</p>
+              <span>From $8.99</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section dark">
+        <div class="container split">
+          <div>
+            <h2>About Turkish Mandi</h2>
+            <p>
+              We blend Turkish-inspired techniques with desi street-food soul. Our kitchen focuses
+              on handcrafted marinades, fresh bread, and slow-cooked gravies that taste like home.
+            </p>
+          </div>
+          <ul>
+            <li>✔ Halal ingredients</li>
+            <li>✔ Fresh daily prep</li>
+            <li>✔ Dine-in, takeaway & delivery</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact">
+          <h2>Visit or Order</h2>
+          <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+          <p><strong>Address:</strong> 7009 Market Street, Your City</p>
+          <p><strong>Hours:</strong> 12:00 PM – 11:30 PM (Daily)</p>
+          <button id="callBtn" class="cta ghost">Tap to Reveal Ordering Number</button>
+          <p id="callOut" class="hidden"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© <span id="year"></span> Turkish Mandi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
